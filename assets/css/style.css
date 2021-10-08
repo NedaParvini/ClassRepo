@@ -204,8 +204,11 @@ p {
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
     font-size: 14px;
-}
 
-.footer h4 {
-    font-size: 12px;
+}
+aside {
+    display: block;
+  }
+.footer h4 .heart {
+    color: #b30811;
 }
