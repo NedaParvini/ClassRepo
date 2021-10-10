@@ -71,7 +71,7 @@ p {
 }
 
 .content {
-    width: 75%;
+    width: 100;
     display: inline-block;
     margin-left: 20px;
 }
@@ -81,7 +81,7 @@ p {
     padding: 20px;
     clear: both;
     float: right;
-    width: 20%;
+    width: 80%;
     height: 100%;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: #2589bd;
@@ -206,8 +206,14 @@ p {
     font-size: 14px;
 
 }
-aside {
-    display: block;
+section {
+    float: left;
+    width: 75%;    
+  }
+  aside {
+    float: right;
+    width: 25%;
+    
   }
 .footer h4 .heart {
     color: #b30811;
